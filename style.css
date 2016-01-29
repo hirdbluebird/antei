@@ -1,0 +1,262 @@
+/*
+Theme Name: Антей
+Theme URI: https://wordpress.org/themes/twentyfifteen/
+Author: the WordPress team
+Author URI: https://wordpress.org/
+Description: Тема создана для кампании "Антей"
+Version: 1.3
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: black, blue, gray, pink, purple, white, yellow, dark, light, two-columns, left-sidebar, fixed-layout, responsive-layout, accessibility-ready, custom-background, custom-colors, custom-header, custom-menu, editor-style, featured-images, microformats, post-formats, rtl-language-support, sticky-post, threaded-comments, translation-ready
+Text Domain: 
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+* {
+	font-family: 'Open Sans', sans-serif;
+}
+.carousel-about {
+	margin-top: 45px;
+}
+.box-shadow-class:hover {
+    -webkit-box-shadow: 0px 0px 2px 2px #363539;
+    -moz-box-shadow: 0px 0px 2px 2px #363539;
+    box-shadow: 0px 0px 2px 2px #363539;
+    -webkit-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    -ms-transition: all 0.3s linear;
+    -kthtml-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+    
+}
+.box-shadow-class {
+	border: 1px solid #AFADA8;
+    background: #EAE7E0;
+    border-radius: 3px;
+    margin: 20px 0px;
+    padding-top: 20px;
+}
+.benefits-image {
+	position: relative;
+	margin: auto auto;
+	width: 200px;
+	height: 200px;
+}
+.benefits-image img {
+	width: 200px;
+}
+.benefits-image img {
+	left: 0;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	-webkit-transition: opacity 0.3s ease-in-out;
+	-moz-transition: opacity 0.3s ease-in-out;
+	-o-transition: opacity 0.3s ease-in-out;
+	transition: opacity 0.3s ease-in-out;
+}
+.fa-search::before {
+	padding: 0px;
+}
+
+.post-thumbnail-container {
+	float: right;
+	margin-left: 10px;
+	margin-bottom:10px;
+	height: 250px;
+}
+.post-thumbnail-container img {
+	height: 100%;
+	width: auto;
+}
+.card-container {
+	margin-top: 20px;
+    height: 89px;
+    perspective: 600;
+    position: relative;
+    width: 170px;
+}
+.blog-item-header h2 {
+	padding: 0px;
+}
+
+.sidebar-nav li a:hover {
+	color: black;
+}
+.google-map {
+	text-align: center;
+}
+.buy-button {
+	padding: 10px 20px;
+	-webkit-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    -ms-transition: all 0.3s linear;
+    -kthtml-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+}
+.buy-button:hover {
+	background: #222124;
+	-webkit-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    -ms-transition: all 0.3s linear;
+    -kthtml-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+}
+.phone-block span {
+	font-size: 21px;
+}
+.phone-block > span > img {
+	position: relative;
+	top: -1px;
+}
+.phone-numbers {
+	margin-top: 20px;
+	margin-bottom: 0px;
+}
+.company-info {
+	margin: -16px 0px 0px 175px;
+	position: relative;
+}
+.bold-text {
+	font-weight: 700;
+}
+.align-center-navbar {
+	width: 100%;
+	text-align: center;
+}
+.align-center-navbar ul {
+	display: inline-block;
+	float: none;
+}
+#header {
+	border-top: 1px solid #c7c5c1;
+	margin-top: 30px; 
+}
+.logo {
+	height: 100px;
+	float: left;
+	width: 100px;
+	margin-top: 20px;
+}
+
+.uppercase {
+	text-transform: uppercase;
+}
+.benefits {
+	text-align: center;
+}
+#map {
+	width: 100%;
+	height: 200px;
+}
+.search-query {
+	color: black;
+}
+.contact-form {
+	margin-top: 70px;
+}
+.contact-content h2:not(:last-child) {
+	margin-bottom: 2px;
+}
+.carousel-mainpage {
+	width: 66%;
+	height: 66%;
+	margin: auto;
+}
+.sidebar-nav li a:hover {
+	background: #363539;
+	color: #E9E6DF!important;
+}
+.modal-header h4 {
+	color: #363539;
+}
+.sidebar-nav li a {
+	transition: all 0.3s linear;
+	-webkit-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    -ms-transition: all 0.3s linear;
+    -kthtml-transition: all 0.3s linear;
+}
+.tech-table {
+	vertical-align: middle;
+	text-align: center;
+	width: 100%;
+}
+.tech-table td {
+	border: 1px solid #363539;
+}
+.clear-both {
+	clear: both;
+	margin-top: 10px;
+}
+.align-center-photo {
+	display: table-cell;
+	margin: auto auto;
+	width: 450px;
+	height: 200px;
+}
+.image-width-inherit {
+	width: 300px;
+	height: auto;
+}
+.post-image-width {
+	width: 200px;
+	height: 300px;
+}
+thead {
+	background: #4f4e53;
+	color: rgba(255, 255, 255, 0.8);
+}
+.sidebar-nav > li:last-child a {
+	border-bottom: solid 1px #d8d6d0;
+}
+.sub-text {
+	vertical-align: sub;
+	font-size: 8px;
+}
+.center-logo {
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	position: fixed;
+	z-index: 0;
+	pointer-events: none;
+	opacity: 0.1;
+}
+.quality-image {
+	pointer-events: none;
+}
+.company-info img:first-child {
+	width: 100%;
+}
+.shine {
+	height: 100%;
+	position: absolute;
+	z-index: 9999;
+	top: 0;
+	animation-name: shine-info;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-in;
+    animation-delay: 0;
+    animation-direction: normal;
+    animation-iteration-count: infinite;
+    animation-fill-mode: backwards;
+}
+.min-width-image {
+	width: 300px;
+}
+.tigli-size {
+	height: 300px;
+	width: 500px;
+}
+.square-image {
+	height: 150px;
+	width: 150px;
+}
+.list-style {
+	list-style-type: circle;
+}
